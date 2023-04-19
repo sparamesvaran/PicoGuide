@@ -8,6 +8,7 @@
 #include "pico/stdlib.h"
 #include "hardware/adc.h"
 #include "pico/multicore.h"
+#include "hardware/rtc.h"
 
 #define FLAG_VALUE 123
 
