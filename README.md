@@ -7,7 +7,7 @@ This repository includes a project showing an example of how to use the Raspberr
 
 To build the project, follow the following steps.
 
-**Note: these instructions assume you have configured your VS Code and operating system environemnt, so that you can successfully compile the `pico-examples` directory. Instructions on how to do this are here: https://github.com/sparamesvaran/PicoGuide/wiki/Software-set-up-with-pico-examples-build.**
+**Note: these instructions assume you have configured your VS Code and operating system environment, so that you can successfully compile the `pico-examples` directory. Instructions on how to do this are here: https://github.com/sparamesvaran/PicoGuide/wiki/Software-set-up-with-pico-examples-build.**
 
 
 1. Get a copy of the repositoriy in your preferred location.
@@ -27,7 +27,7 @@ git clone git@github.com:sparamesvaran/PicoGuide.git
 
 ## Additional information
 
-It is suggested that you use the `hello_multicore/multicore.c` file as a starting point for the `multicore` temperature DAQ codebase.
+It is suggested that you use the `hello_multicore/multicore.c` file as a starting point for task `a` of the DAQ part of the SCIF30001 capstone 3 exercise.
 
 The `hello_multicore/CMakeLists.txt` file already has the necessary statements to link against the Pico `ADC`, `RTC`, and `multicore` libraries. You should not need to modify `hello_multicore/CMakeLists.txt` to use these functionalities.
 
